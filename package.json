@@ -1,13 +1,14 @@
 {
     "engines": {
-      "node": "22.19.0"
+      "node": ">=18.0.0"
     },
   
   "name": "majorproject",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
